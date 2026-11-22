@@ -11,7 +11,7 @@ wenn die Antwort nicht drinsteht.
    Die Suche findet die Chunks mit der größten Bedeutungsähnlichkeit,
    auch wenn andere Wörter benutzt werden.
 2. **Schwelle:** Liegt der beste Treffer unter einem Ähnlichkeitswert
-   (0.3), wird Claude gar nicht aufgerufen. Das verhindert falsche
+   (0.35), wird Claude gar nicht aufgerufen. Das verhindert falsche
    Antworten und spart Kosten.
 3. **Generation (Antwort):** Die besten Treffer gehen an die Claude-API.
    Claude formuliert eine kurze Antwort und nennt die Quelle.
@@ -26,7 +26,7 @@ wenn die Antwort nicht drinsteht.
 
 ## Bekannte Grenzen
 
-- Die Schwelle (0.3) ist an wenigen Testfragen eingestellt. Mit mehr
+- Die Schwelle (0.35) ist an wenigen Testfragen eingestellt. Mit mehr
   Dokumenten muss sie neu geprüft werden.
 - Die Dokumente stehen fest im Code und werden nicht aus Dateien gelesen.
 
